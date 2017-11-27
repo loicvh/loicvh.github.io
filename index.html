@@ -4,25 +4,41 @@
 <html>
 
 <head>
+
     <title>My first web page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- This is a comment, by the way -->
+
 </head>
 
 <body>
 
-    <h1 id="up">My first web page</h1>
+<h1>My first web page</h1>
+<h2>CV Loïc </h2>
+<p> A obtenu la bourse FNRS.</p>
+<h2>What this is</h2>
+<p>A simple page put together using HTML. <em>I said a simple page put together using HTML.</em> A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML.</p>
 
-    <h2>What this is</h2>
-    <p>A simple page put together using HTML</p>
+<h2>Why this is</h2>
+<ul>
+    <li>To learn HTML</li>
+    <li>
+        To show off
+        <ol>
+            <li>To my boss</li>
+            <li>To my friends</li>
+            <li>To my cat</li>
+            <li>To the little talking duck in my brain</li>
+        </ol>
+    </li>
+    <li>Because I have fallen in love with my computer and want to give her some HTML loving.</li>
+</ul>
 
-    <h2>Why this is</h2>
-    <p>To learn HTML</p>
+<h2>Where to find the tutorial</h2>
+<p><a href="http://www.htmldog.com"><img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog"></a></p>
 
-    <h2>Where to find the tutorial</h2>
-    <p><a href="http://www.htmldog.com">HTML Dog</a></p>
-    <h2>A test of an image </h2>
-    <p><img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog"></p>
-    <h2>A test of a table </h2>
-    <table>
+<h3>Some random table</h3>
+<table>
     <tr>
         <td>Row 1, cell 1</td>
         <td>Row 1, cell 2</td>
@@ -44,44 +60,29 @@
         <td>Row 4, cell 3</td>
     </tr>
 </table>
-    <h2> Test of forms </h2>
-    <h1> Text area </h1>
-    <p> <textarea rows="5" cols="20">A big load of text</textarea> </p>
-    <h1> Selection </h1>
-    <p> 
-<select>
-    <option>Option 1</option>
-    <option>Option 2</option>
-    <option value="third option">Option 3</option>
-</select>
-    </p>
-    <h1> Big form </h1>
-	<form action="contactus.php" method="post">
 
-    <p>Name:</p>
-    <p><input type="text" name="name" value="Your name"></p>
+<h3>Some random form</h3>
+<p><strong>Note:</strong> It looks the part, but won't do a damned thing.</p>
 
-    <p>Species:</p>
-    <p><input name="species"></p>
-    <!-- remember: 'type="text"' isn't actually necessary -->
+<form action="somescript.php" method="post">
 
-    <p>Comments: </p>
-    <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+<p>Name:</p>
+<p><input name="name" value="Your name"></p>
 
-    <p>Are you:</p>
-    <p><input type="radio" name="areyou" value="male"> Male</p>
-    <p><input type="radio" name="areyou" value="female"> Female</p>
-    <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
-    <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+<p>Comments: </p>
+<p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
 
-    <p><input type="submit"></p>
+<p>Are you:</p>
+<p><input type="radio" name="areyou" value="male"> Male</p>
+<p><input type="radio" name="areyou" value="female"> Female</p>
+<p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+<p><input type="radio" name="areyou" value="asexual" checked> Asexual</p>
+
+<p><input type="submit"></p>
 
 </form>
-
-    <h2>Going up</h2>
-    <p><a href="#up">Go to up</a>
-
 
 </body>
 
 </html>
+
