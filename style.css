@@ -70,9 +70,16 @@ ul {
     padding-left: 40px;*/
 }
 
+#link_img {
+    background-color: transparent;
+    opacity: 0.5;
+}
+
 
 #link_img:hover {
     border-color: white;
+    background-color: none;
+    opacity: 1;
 }
 
     
