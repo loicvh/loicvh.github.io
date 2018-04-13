@@ -1,6 +1,18 @@
-body {
+body{
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
+    /*background-color: #fff;*/
+    /*background: url("image/WP/04.jpg") no-repeat center center fixed;
+    background-position: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  opacity: 1;
+}
+
+#cac{
+opacity: 0.2;
 }
 
 
@@ -15,6 +27,7 @@ h1 {
     margin: 0;
     margin-bottom: 7px;
     padding: 4px;
+    color: white;
 }
 
 
@@ -27,6 +40,7 @@ h2 {
     border-color: navy;
     margin: 20px;
     padding: 20px;
+    color: white;
 }
 
 
@@ -82,4 +96,4 @@ ul {
     opacity: 1;
 }
 
-    
+   
